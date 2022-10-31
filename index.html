@@ -9,16 +9,17 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header #main>
+    <header >
         <div class="logo">
-            <a href="#main" target="_self">
-                Vinicius
-            </a>
-            <a href="#main" target="_self" class="logoColor">.dev</a>
+            <p href="#sobre" target="_self">
+            Vinicius
+            <a href="#sobre" target="_self" class="logoColor">.dev</a>
+            </p>
         </div>
         <div class="navbar">
             <ol>
                 <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#projetos">Projetos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ol>
@@ -48,13 +49,13 @@
         <a href="mailto:viniciusmaquine14@gmail.com">viniciusmaquine14@gmail.com</a>
         </div>
       </div>
-    <main>
-        <section class="presentation-text">
+    <main id="sobre">
+        <section class="presentation-text" >
             <div class="h1-presentation">
                 <h1>Ola,</h1>
             </div>
             <div class="h2-presentation">
-                <h2>Eu sou o</h2><h2 class="h2Color">Vinicius,</h2>
+                <p>Eu sou o <h2 class="h2Color">Vinicius,</h2></p>
             </div>
             <div class="h3-presentation">
                 <h3>Um Desenvolvedor Front-End</h3>
@@ -70,8 +71,32 @@
         </section>
         <div class="arrow"></div>
     </main>
-    <section>
+    <section class="skills" id="habilidades" data-anime="left">
+        <div class="skills-text">
 
+            <div class="skills-tittle">
+                <p><a class="AColor">Habilidades</a>, E ferramentas</p>
+            </div>
+            <div class="skills-info">
+                <p>Para uma visão geral mais <a class="AColor"> detalhada</a>, <a class="A-underline">verifique as ferramentas bases para produção de um projeto</a>.</p>
+            </div>
+            <div class="divider">
+
+            </div>
+            <ul class="skills-list">
+                <li>Javascript ES6+</li>
+                <li>TypeScript</li>
+                <li>Vue.js</li>
+                <li>Firebase</li>
+                <li>Styled Components</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+            </ul>
+        </div>
+        <div class="photo">
+            
+        </div>
     </section>
   </body>
 </html>
